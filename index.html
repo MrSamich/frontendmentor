@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    /* body{ font-family: 'Inter', sans-serif; font-family: 'Lexend Deca', sans-serif;} */
+body{
+  background-color: black;
+}
+    .card { color: white;
+      width: 1110px;
+      display: flex;
+      padding: 177px 165px 177px 165px;
+    }
+    .left-section{
+      background-color:#0d0033;
+      padding: 71px 120px 65px 59px;
+    }
+    .right-section{
+      
+      
+    }
+    .heading{
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      line-height: 44px;
+    }
+    .description{
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 70px;
+      opacity: 0.6;
+    }
+    .social-tab{
+      display: flex;
+    }
+    .social-card{
+      padding-right: 75px;
+      
+    }
+    .social-p1{
+      font-family: 'Inter', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29px;
+      margin: 2px 0 2px 0;
+    }
+    .social-p2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    opacity: 0.6;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="left-section">
+      <div class="heading">
+        <h1>Get insights that help your business grow.</h1>
+      </div>
+      <div class="description">
+        <p > Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+      </div>
+      <div class="social-tab">
+        <div class="social-card ">
+         <p class="social-p1">10+</p> 
+         <p class="social-p2">companies</p>
+        </div class="social-card">
+        <div class="social-card">
+         <p class="social-p1">314</p> 
+         <p class="social-p2">templates</p>
+        </div>
+        <div >
+         <p class="social-p1">12m+</p> 
+         <p class="social-p2">queries</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="right-section">
+        <img class="right-hero" src="images/image-header-desktop.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
